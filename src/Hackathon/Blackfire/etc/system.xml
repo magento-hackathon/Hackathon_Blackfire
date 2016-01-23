@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../Backend/etc/system_file.xsd">
+    <system>
+        <tab id="blackfire_profiling" translate="label" sortOrder="1">
+            <label>BlackFire Profiling</label>
+        </tab>
+        <section id="global" translate="label" sortOrder="1" showInDefault="1"
+                 showInWebsite="1" showInStore="1">
+            <label>Global config</label>
+            <tab>Global</tab>
+            <resource>Namespace_Modulename::system_config</resource>
+            <group id="Blackfire Credentials" translate="label" type="text" sortOrder="1" showInDefault="1"
+                   showInWebsite="1" showInStore="1">
+                <label>Blackfire Client ID</label>
+                <field id="client_id" translate="label" type="text" sortOrder="1"
+                       showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Client ID</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
