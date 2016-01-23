@@ -1,0 +1,32 @@
+{
+  "name": "magento-hackathon/Hackathon_Blackfire",
+  "description": "Blackfire module for Magento 2",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Jitze Bakker",
+      "email": "jitze.bakker@mediact.nl",
+      "role": "developer"
+    },
+    {
+      "name": "Rieks Visser",
+      "email": "rieks.visser@mediact.nl",
+      "role": "developer"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "~5.6.0|~7.0.0",
+    "magento/framework": "100.0.*",
+    "blackfire/php-sdk": "^1.5"
+  },
+  "autoload": {
+    "files": [
+      "src/Hackathon/Blackfire/registration.php"
+    ],
+    "psr-4": {
+      "Hackathon\\MyModule\\": "src/Hackathon/Blackfire/"
+    }
+  }
+}
+
