@@ -25,7 +25,7 @@
       "src/Hackathon/Blackfire/registration.php"
     ],
     "psr-4": {
-      "Hackathon\\MyModule\\": "src/Hackathon/Blackfire/"
+      "Hackathon\\Blackfire\\": "src/Hackathon/Blackfire/"
     }
   }
 }
