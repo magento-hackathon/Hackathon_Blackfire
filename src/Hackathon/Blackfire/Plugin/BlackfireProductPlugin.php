@@ -7,8 +7,8 @@ use Symfony\Component\Config\Definition\Exception\Exception;
 
 class BlackfireProductPlugin
 {
-    protected $blackFireClientId = '5f56facb-be1e-4845-a26b-ca040e979f09';
-    protected $blackFireClientToken = '32c0ad06b18a8b46ae0b7b522ed7501d33cbeac71120250e829eb76e1f29e3bd';
+    protected $blackFireClientId = '';
+    protected $blackFireClientToken = '';
 
     /**
     * Profile before and after product load, using Blackfire
